@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd HostelManagementSystem-main/hostelManagement && npm run vercel-build",
+  "outputDirectory": "HostelManagementSystem-main/hostelManagement/dist/hostel-management",
+  "installCommand": "cd HostelManagementSystem-main/hostelManagement && npm install",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
