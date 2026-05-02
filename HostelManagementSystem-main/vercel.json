@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd HostelManagementSystem-main/hostelManagement && npm run build",
+  "outputDirectory": "HostelManagementSystem-main/hostelManagement/dist/hostel-management",
+  "installCommand": "cd HostelManagementSystem-main/hostelManagement && npm install"
+}
